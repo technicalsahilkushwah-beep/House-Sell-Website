@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <>
             <header>
-                <div className='bg-gradient-to-r from-[#0d0a98] to-[#0991f6] py-4'>
+                <div className='bg-gradient-to-r brightness-110  hue-rotate-15 from-[#0d0a98] to-[#0991f6] py-4'>
                     <nav className='flex items-center justify-center gap-5 text-white text-base lg:justify-end lg:px-20'>
                         <h2 className='hidden md:flex md:text-base lg:text-base lg:flex'>Friday,January 23 | 12:23</h2>
                         <a href="#" className='sm:text-base md:text-base lg:text-base'>Contactus</a>

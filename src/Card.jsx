@@ -2,9 +2,9 @@ import React from 'react'
 
 const Card = ({image,title}) => {
     return (
-        <div className='max-w-[350px] w-full h-[500px] shadow hover:shadow-gray-300 duration-500 hover:shadow-lg'>
+        <div className='max-w-[350px] w-full h-[500px] shadow brightness-110 hover:shadow-gray-300 duration-500 hover:shadow-lg'>
             <div className=' aspect-[7/5] w-full shadow overflow-hidden relative'>
-                <img src={image} alt="" className='object-cover w-full h-full hover:scale-105 duration-1000 cursor-pointer' />
+                <img src={image} alt="" className='object-cover w-full h-full hover:scale-105 duration-1000 cursor-pointer brightness-110' />
                {/* shadow overlay  */}
                 <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/70 to-transparent"></div>
             </div>

@@ -8,7 +8,7 @@ const Home = () => {
     <main className="w-full overflow-x-hidden">
 
       {/* Banner */}
-      <div className="max-w-full h-[560px] md:h-full lg:h-full shadow shadow-gray-400 overflow-hidden">
+      <div className="max-w-full h-[560px] md:h-full lg:h-full brightness-125 shadow shadow-gray-400 overflow-hidden">
         <img
           src="https://www.mphousing.in/logo/nobanner.jpg"
           alt=""

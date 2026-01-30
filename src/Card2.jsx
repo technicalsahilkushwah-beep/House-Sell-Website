@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card2 = () => {
   return (
-    <section className='w-full aspect-[7/5] max-w-sm sm:max-w-md lg:max-w-lg shadow  bg-gray-100'>
+    <section className='w-full aspect-[7/5] max-w-sm sm:max-w-md lg:max-w-lg shadow brightness-110  bg-gray-100'>
       <div className=' border-b px-4 py-3 bg-blue-800 hover:bg-blue-900 transition duration-300 cursor-copy text-white text-sm  w-fit'>
         RUNNING SCHEME
       </div>
